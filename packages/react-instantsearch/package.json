@@ -1,19 +1,10 @@
 {
-  "name": "react-instantsearch",
-  "author": {
-    "name": "Algolia, Inc.",
-    "url": "https://www.algolia.com"
-  },
-  "description": "⚡ Lightning-fast search for React and React Native apps",
-  "version": "3.2.1",
+  "name": "@mindhive/meteor-react-instantsearch",
+  "description": "Lightning-fast search for React and React Native apps",
+  "version": "3.2.4",
   "scripts": {
     "build": "./scripts/build.sh",
     "build-and-publish": "./scripts/build-and-publish.sh"
-  },
-  "homepage": "https://community.algolia.com/instantsearch.js/react/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/algolia/instantsearch.js/"
   },
   "dependencies": {
     "algoliasearch": "^3.21.1",

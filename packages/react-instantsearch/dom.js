@@ -1,5 +1,5 @@
 import createInstantSearch from './src/core/createInstantSearch';
-import algoliasearch from 'algoliasearch';
+import algoliasearch from 'algoliasearch/src/browser/builds/algoliasearchLite';
 
 const InstantSearch = createInstantSearch(algoliasearch, {
   Root: 'div',
